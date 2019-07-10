@@ -82,7 +82,7 @@ header {
 /*＝＝＝＝＝TOP＝＝＝＝＝*/
 
 .top-wrapper {
-  background-image: url(img/1107313.png);
+  background-image: url(https://raw.githubusercontent.com/hrmnm/Fictitious-company/master/1107313.png);
   background-size: cover;
   width: 100%;
   height: 1200px;
@@ -94,23 +94,28 @@ header {
 .top-wrapper h1 {
   opacity: 0.9;
   font-size: 45px;
+  letter-spacing: 7px;
+}
+
+.top-wrapper h2 {
+  opacity: 0.9;
+  padding: 10px 0 ;
   letter-spacing: 5px;
 }
 
 .top-copy {
   padding-bottom: 20px;
+  letter-spacing: 7px;
 }
 
-.top-wrapper p {
-  opacity: 0.9;
-}
+
 
 
 /*＝＝＝＝＝ABOUT＝＝＝＝＝*/
 
 .about-wrapper {
   background-color: #fff;
-  height: 500px;
+  height: 400px;
   width: 100%;
 }
 
@@ -126,13 +131,7 @@ header {
 
 .title h4 {
   font-weight: normal;
-  font-size: 20px;
-  padding: 20px 0;
-}
-
-.title p {
-  padding: 20px 0;
-  font-size: 13px;
+  padding: 50px 0;
 }
 
 
@@ -157,22 +156,22 @@ header {
   border-radius: 15px;
   float: left;
   margin-right: 20px;
+  margin-top: 20px;
 }
 
+
 .txt-contents {
-  font-size: 9px;
   width: 80%;
   display: inline-block;
   margin-top: 20px;
-  font-size: 12px;
-  color: #b3aeb5;
+  font-size: 13px;
+  text-align: left;
 }
-
 
 /*＝＝＝＝＝CONTACT＝＝＝＝＝*/
 
 .contact-wrapper {
-  background-image: url(img/background-image2.png);
+  background-image: url(https://raw.githubusercontent.com/hrmnm/Fictitious-company/master/background-image2.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -184,7 +183,7 @@ header {
   position: relative;
   text-align: center;
   display: inline-block;
-  margin-top: 200px;
+  margin-top: 80px;
   height: 64px;
   width: 256px;
   color: black;
@@ -241,7 +240,7 @@ header {
 /*＝＝＝＝＝COMPANY＝＝＝＝＝*/
 
 .conpany-wrapper {
-  background-image: url(img/background-image3.jpg);
+  background-image: url(https://raw.githubusercontent.com/hrmnm/Fictitious-company/master/background-image3.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
