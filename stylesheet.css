@@ -57,7 +57,7 @@ header {
 
 .header-list li {
   float: left;
-  font-size: 12px;
+  font-size: 13px;
   width: 90px;
   text-align: center;
 }
@@ -67,12 +67,12 @@ header {
 }
 
 .header-list a {
-  background: linear-gradient(95deg, #2b3683, #306dcf);
+  background: linear-gradient(95deg, #4a55a6, #73a3f0);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  display: block;
+  display: inline-block;
   cursor: pointer;
 }
 
@@ -161,63 +161,45 @@ header {
   text-align: left;
 }
 
-/*＝＝＝＝＝CONTACT＝＝＝＝＝*/
+/*＝＝＝＝＝COMPANY＝＝＝＝＝*/
 
-.contact-wrapper {
-  background-image: url(https://raw.githubusercontent.com/hrmnm/Fictitious-company/master/background-image2.png);
+.company-wrapper {
+  background-image: url(https://raw.githubusercontent.com/hrmnm/Fictitious-company/master/background-image3.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  height: 450px;
+  height: 500px;
   text-align: center;
 }
 
-.btn {
-  position: relative;
+table {
   display: inline-block;
-  height: 64px;
-  width: 256px;
-  color: black;
-  line-height: 64px;
-  transition: all 0.3s;
-  span {
-    transition: all 0.3s;
-    transform: scale(1, 1);
-  }
+  width: 450px;
 }
 
-.btn::before, .btn::after {
-  content: '';
+table th {
+  position: relative;
+  text-align: left;
+  width: 10%;
+  padding: 3px 0 3px 15px;
+}
+
+table th:after{
+  display: block;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: #fbe2ab;
   position: absolute;
-  transition: all 0.3s;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
+  top:calc(50% - 1px);
+  right: 20px;
 }
 
-.btn-contact::before {
-  opacity: 0;
-  background: rgba(232, 192, 50, 0.4);
-  transform: scale(1, 0.1);
+table td{
+  text-align: left;
+  width: 20%;
+  padding: 3px 0 3px 15px;
 }
-
-.btn-contact:hover::before {
-  opacity: 1;
-  transform: scale(1, 1);
-}
-
-.btn-contact::after {
-  transition: all 0.3s;
-  border: 1px solid rgba(35, 66, 119, 1);
-}
-
-.btn-contact:hover::after {
-  transform: scale(1, .1);
-  opacity: 0;
-}
-
 
 
 /*＝＝＝＝＝NEWS＝＝＝＝＝*/
@@ -231,7 +213,7 @@ header {
 .news-frame {
   display: inline-block;
   overflow: auto;
-  width: 800px;
+  width: 60%;
   height: 250px;
   padding: 5px;
   border: 5px solid #e3e3e3;
@@ -244,6 +226,7 @@ header {
   text-align: left;
   padding: 10px 20px;
   border-bottom: 1px dotted rgb(219, 209, 222);
+  font-size: 13px;
 }
 
 .fas {
@@ -251,10 +234,11 @@ header {
   margin-right: 8px;
 }
 
-/*＝＝＝＝＝COMPANY＝＝＝＝＝*/
 
-.conpany-wrapper {
-  background-image: url(https://raw.githubusercontent.com/hrmnm/Fictitious-company/master/background-image3.jpg);
+/*＝＝＝＝＝CONTACT＝＝＝＝＝*/
+
+.contact-wrapper {
+  background-image: url(https://raw.githubusercontent.com/hrmnm/Fictitious-company/master/background-image2.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -262,12 +246,61 @@ header {
   text-align: center;
 }
 
+.contact-form{
+  display: inline-block;
+  width: 50%;
+  height: 300px;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  margin: 3px 0 15px 0;
+  padding: 5px 10px;
+  font-size: 13px;
+  border: 1px solid #dee7ec;
+  box-sizing: border-box;
+  transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: 1px solid #aaaaaa;
+	border-radius: 4px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin: 3px 0 15px 0;
+  padding: 5px 10px;
+  font-size: 13px;
+  border: 1px solid #dee7ec;
+  box-sizing: border-box;
+  transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: 1px solid #aaaaaa;
+	border-radius: 4px;
+}
+
+.form input:focus {
+	border: 1px solid #f9b2d8;
+	outline: none;
+	box-shadow: 0 0 5px 1px rgb(203, 132, 144);
+}
+
+textarea:focus {
+	border: 1px solid #f9b2d8;
+	outline: none;
+	box-shadow: 0 0 5px 1px rgb(203, 132, 144);
+}
+
+
 
 /*＝＝＝＝＝FOOTER＝＝＝＝＝*/
 
 footer {
   background-color: rgb(68, 91, 150);
-  height: 300px;
+  height: 200px;
   text-align: center;
 }
 
