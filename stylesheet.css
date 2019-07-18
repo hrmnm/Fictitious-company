@@ -164,7 +164,7 @@ header {
 /*＝＝＝＝＝COMPANY＝＝＝＝＝*/
 
 .company-wrapper {
-  background-image: url(img/background-image2.png);
+  background-image: url(img/background-image3.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -238,7 +238,7 @@ table td{
 /*＝＝＝＝＝CONTACT＝＝＝＝＝*/
 
 .contact-wrapper {
-  background-image: url(img/background-image3.png);
+  background-image: url(img/background-image2.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -249,7 +249,10 @@ table td{
 .contact-form{
   display: inline-block;
   width: 50%;
-  height: 300px;
+  height: 400px;
+}
+
+.contact-form p {
   text-align: left;
 }
 
@@ -257,12 +260,12 @@ input {
   width: 100%;
   margin: 3px 0 15px 0;
   padding: 5px 10px;
-  font-size: 13px;
+  font-size: 14px;
   border: 1px solid #dee7ec;
   box-sizing: border-box;
   transition: 0.3s;
 	letter-spacing: 1px;
-	color: #aaaaaa;
+	color: #6a6a6a;
 	border: 1px solid #aaaaaa;
 	border-radius: 4px;
 }
@@ -272,12 +275,12 @@ textarea {
   height: 100px;
   margin: 3px 0 15px 0;
   padding: 5px 10px;
-  font-size: 13px;
+  font-size: 14px;
   border: 1px solid #dee7ec;
   box-sizing: border-box;
   transition: 0.3s;
 	letter-spacing: 1px;
-	color: #aaaaaa;
+	color: #6a6a6a;
 	border: 1px solid #aaaaaa;
 	border-radius: 4px;
 }
@@ -294,18 +297,32 @@ textarea:focus {
 	box-shadow: 0 0 5px 1px rgb(203, 132, 144);
 }
 
+.submit {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  background-color:rgb(29, 53, 108);
+  color: rgb(255, 255, 255);
+  box-shadow: 2px 3px 5px rgb(134, 134, 134);
+  border: none;
+}
+
+.submit:hover {
+  box-shadow: none;
+  background-color:rgb(157, 157, 157);
+}
 
 
 /*＝＝＝＝＝FOOTER＝＝＝＝＝*/
 
 footer {
   background-color: rgb(68, 91, 150);
-  height: 200px;
   text-align: center;
 }
 
 .btn-wrapper{
-  padding-top: 100px;
+  padding-top: 60px;
   font-size: 25px;
 }
 
@@ -334,5 +351,5 @@ footer {
 footer p {
   color: rgb(255, 255, 255);
   font-size: 15px;
-  padding-top: 50px;
+  padding: 30px 0 50px 0;
 }
