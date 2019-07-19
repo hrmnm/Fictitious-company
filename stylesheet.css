@@ -38,6 +38,7 @@ header {
   width: 1000px;
   padding: 0 10px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .header-left {
@@ -53,6 +54,10 @@ header {
 .header-right {
   float: right;
   line-height: 70px;
+}
+
+.header-right span {
+  display: none;
 }
 
 .header-list li {
@@ -75,6 +80,8 @@ header {
   display: inline-block;
   cursor: pointer;
 }
+
+
 
 
 /*＝＝＝＝＝TOP＝＝＝＝＝*/
