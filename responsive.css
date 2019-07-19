@@ -2,9 +2,11 @@
 
 @media (max-width: 670px){
 
-header  .top-wrapper .about-wrapper .survices-wrapper .company-wrapper .news-wrapper .contact-wrapper footer {
-  width : 100%;
-  }
+.container {
+  max-width: 670px; /* 最大横幅 */
+  width: 100%;
+  margin: 0 auto;
+}
 
   h1 {
   font-size: 14px;
@@ -14,8 +16,11 @@ header  .top-wrapper .about-wrapper .survices-wrapper .company-wrapper .news-wra
 
 
 @media (max-width: 470px) {
-  header  .top-wrapper .about-wrapper .survices-wrapper .company-wrapper .news-wrapper .contact-wrapper footer {
-    width : 100%;
+
+  .container {
+    max-width: 470px; /* 最大横幅 */
+    width: 100%;
+    margin: 0 auto;
   }
 
   h1 {
