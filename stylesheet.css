@@ -244,17 +244,19 @@ table td{
   color: rgb(0, 0, 0);
 }
 
-.news p {
-  display: block;
+.news a{
+  color: rgb(37, 37, 37);
 }
+
 
 .news-date {
   padding: 4px 0 ;
   text-align: left;
+  color: rgb(84, 100, 128);
 }
 
 .news h5 {
-  display: block;
+  font-size: 15px;
 }
 
 .news-contents {
