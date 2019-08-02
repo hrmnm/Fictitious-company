@@ -1,10 +1,10 @@
 /*responsive*/
 
-@media (max-width: 7px){
+@media (max-width: 760px){
 
   .container {
-    max-width: 700px; /* 最大横幅 */
-    width: 100%;
+    max-width: 760px; /* 最大横幅 */
+    width: 90%;
     margin: 0 auto;
     overflow: hidden;
   }
@@ -28,6 +28,7 @@
   .survices-wrapper {
     height: 1500px;
     text-align: center;
+
   }
 
   .survice {
