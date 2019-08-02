@@ -231,7 +231,7 @@ table td{
 
 .news-wrapper {
   background-color: rgb(250, 250, 250);
-  height: 550px;
+  height: 350px;
   text-align: center;
 }
 
@@ -241,9 +241,14 @@ table td{
   width: 70px;
 }
 
+.news-conteiner {
+  max-width: 1200px;
+  display: inline-block;
+}
+
 .news {
   display: inline-block;
-  margin: 20px 5px;
+  margin: 10px 5px;
   width: 30%;
   text-align: left;
   color: rgb(0, 0, 0);
