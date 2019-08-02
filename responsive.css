@@ -1,10 +1,9 @@
 /*responsive*/
 
-@media (max-width: 760px){
+@media (max-width: 890px){
 
   .container {
-    max-width: 760px; /* 最大横幅 */
-    width: 90%;
+    max-width: 890px; /* 最大横幅 */
     margin: 0 auto;
     overflow: hidden;
   }
@@ -14,7 +13,7 @@
   }
 
   .top-wrapper h1 {
-    font-size: 35px;
+    font-size: 45px;
   }
 
   .menu-icon {
@@ -24,18 +23,31 @@
     padding: 20px 0;
   }
 
+/*about*/
+
+  .about-wrapper {
+    height: 400px;
+  }
+
 /*survice*/
   .survices-wrapper {
-    height: 1500px;
-    text-align: center;
+    height: 1300px;
 
+  }
+
+  .survices{
+    max-width: 90%;
   }
 
   .survice {
-    float:none;
-    clear:left;
-    width: 80%;
+    float: none;
+    clear: left;
+    width: 100%;
+    height: 300px;
+    padding: 5px;
+    margin: 10px 0 20px 0;
   }
+
 /*news*/
   .news-frame {
     width: 100%;
@@ -86,17 +98,17 @@
 
   .container {
     max-width: 500px; /* 最大横幅 */
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
   }
 
   .top-wrapper h1 {
-    font-size: 20px;
+    font-size: 40px;
   }
 
   .top-wrapper h2 {
-    font-size: 15px;
+    font-size: 20px;
   }
 
 /*header*/
@@ -115,16 +127,7 @@
   }
 
 /*survice*/
-  .survices-wrapper {
-    height: 1450px;
-  }
 
-  .survice {
-    float: none;
-    clear:left;
-    width: 90%;
-    height: 350px;
-  }
 
 /*news*/
   .news-frame {
