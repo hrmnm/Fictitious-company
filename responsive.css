@@ -49,9 +49,6 @@
   }
 
 /*news*/
-  .news-frame {
-    width: 100%;
-  }
 
 /*company*/
   .company-wrapper:before {
@@ -103,6 +100,10 @@
     overflow: hidden;
   }
 
+  .top-wrapper {
+    height: 300px;
+  }
+
   .top-wrapper h1 {
     font-size: 40px;
   }
@@ -125,14 +126,24 @@
     font-size: 35px;
     padding: 15px 0;
   }
+/*about*/
+
+
 
 /*survice*/
 
 
 /*news*/
-  .news-frame {
-    width: 100%;
+  .news-wrapper {
+    height: 600px;
   }
+
+  .news {
+    display: block;
+    width: 90%;
+    margin: 10px 5px 60px 5px;
+  }
+
 
 /*company*/
   .company-wrapper {
