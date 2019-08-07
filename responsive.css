@@ -126,11 +126,12 @@
 /*top*/
 
   .top-wrapper {
-    height: 400px;
+    height: 500px;
   }
 
   .top-wrapper h1 {
     font-size: 40px;
+    line-height:
   }
 
   .top-wrapper h2 {
