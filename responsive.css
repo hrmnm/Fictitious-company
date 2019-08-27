@@ -65,10 +65,15 @@
 
 /*company*/
   .company-wrapper {
+
     height: 480px;
   }
 
 /*contact*/
+  .conact-wrapper {
+    height: 700px;
+  }
+
   .contact-form{
     display: inline-block;
     width: 80%;
@@ -126,7 +131,7 @@
 /*top*/
 
   .top-wrapper {
-    height: 500px;
+    height: 530px;
     padding: 200px 0 ;
   }
 
@@ -168,7 +173,11 @@
 
 /*company*/
   .company-wrapper {
-    height: 700px;
+    background-image: url(img/background-image3-SP.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 730px;
   }
 
   table {
@@ -200,7 +209,13 @@
   }
 
 /*contact*/
-
+  .contact-wrapper {
+    background-image: url(img/background-image2-SP.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 700px;
+  }
 
   .contact-form{
     display: inline-block;
