@@ -212,26 +212,13 @@
 
 /*contact*/
   .contact-wrapper {
-    height: 750px;
-  }
-
-  .contact-wrapper::before {
-    background: url(mg/background-image3-SP.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-image: url(img/background-image3-SP.jpg);
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    /*background-attachment: fixed;*/
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-    z-index: -1;
+    background-attachment: scroll;
+    background-position: center;
     height: 750px;
+    width: 100%;
+    text-align: center;
   }
 
   .contact-form{
