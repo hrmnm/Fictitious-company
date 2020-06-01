@@ -333,6 +333,9 @@ textarea {
 	color: #6a6a6a;
 	border: 1px solid #aaaaaa;
 	border-radius: 4px;
+	resize: auto;
+  max-width: 485px;
+  max-height: 150px;
 }
 
 .form input:focus {
