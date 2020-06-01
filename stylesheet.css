@@ -243,26 +243,35 @@ table td{
 
 .news-conteiner {
   max-width: 1200px;
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
 .news {
-  display: inline-block;
-  margin: 10px 5px;
-  width: 30%;
+  display: block;
+  flex-wrap: wrap;
+  margin: 10px 25px 10px 10px;
+  width: 25%;
+  height: auto;
   text-align: left;
   color: rgb(0, 0, 0);
 }
 
 .news a{
   color: rgb(37, 37, 37);
+  display: block;
+}
+
+.news a:hover{
+  opacity:0.75;
 }
 
 
 .news-date {
-  padding: 4px 0 ;
+  padding: 4px 0;
   text-align: left;
   color: rgb(84, 100, 128);
+  border-bottom: 1px solid #909090;
 }
 
 .news h5 {
@@ -270,7 +279,7 @@ table td{
 }
 
 .news-contents {
-  height: 20px;
+  /* height: 20px; */
   padding: 10px 0;
 }
 
