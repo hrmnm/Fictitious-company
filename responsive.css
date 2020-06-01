@@ -65,9 +65,9 @@
 
 /*company*/
   .company-wrapper {
-
     height: 480px;
   }
+
 
 /*contact*/
   .conact-wrapper {
@@ -161,7 +161,7 @@
 
 /*news*/
   .news-wrapper {
-    height: 500px;
+    height: auto;
   }
 
   .news {
@@ -170,6 +170,10 @@
     margin: 10px 5px 60px 5px;
   }
 
+  .news-conteiner{
+    display:block;
+
+  }
 
 /*company*/
   .company-wrapper {
@@ -184,12 +188,13 @@
 
   table {
     display: inline-block;
-    width: 70%;
+    width: 90%;
   }
 
   tr {
     display: block;
     border-bottom: 1px solid #fbe2ab;
+    width: 100%;
   }
 
   table th {
